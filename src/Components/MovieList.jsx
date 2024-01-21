@@ -36,7 +36,7 @@ function MovieList({ genreId, index_ }) {
       <div
         ref={elementRef}
         className="flex overflow-x-auto gap-8
-     hide-scrollbars scroll-smooth pt-4 px-3 pb-4"
+     hide-scrollbar scroll-smooth pt-4 px-3 pb-4"
       >
         {movieList.map((item, index) => (
           <>
